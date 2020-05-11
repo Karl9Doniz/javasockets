@@ -1,6 +1,7 @@
 import aacom.animals.Cat;
 import aacom.animals.Dino;
 import aacom.animals.Dog;
+import aacom.figures.*;
 import aacom.weekday.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -44,6 +45,21 @@ public class Config {
             case SATURDAY: return new Saturday();
             case SUNDAY: return new Sunday();
             default: return new Sunday();
+        }
+    }
+
+    @Bean
+    public FigureName getFigure() {
+        Main getAngles = new Main();
+        int angles = getAngles.angle;
+        switch (angles) {
+            case 0: return new Circle();
+            case 3: return new Triangle();
+            case 4: return new Rectangle();
+            case 5: return new Pentagon();
+            case 6: return new Hexagon();
+            default:
+                return new Circle();
         }
     }
 }
