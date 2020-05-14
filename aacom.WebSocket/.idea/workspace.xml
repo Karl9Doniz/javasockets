@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab702f0-92c0-41be-bfd0-4f7c5c949172" name="Default Changelist" comment="commited">
+    <list default="true" id="3ab702f0-92c0-41be-bfd0-4f7c5c949172" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserPostgresDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyWebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyWebSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyWebSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyWebSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,14 +25,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyWebSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="318">
+              <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UserPostgresDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -80,12 +107,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Timer.java" />
         <option value="$PROJECT_DIR$/src/main/java/userinfo.txt" />
         <option value="$PROJECT_DIR$/src/main/java/userip.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyWebSocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UserPostgresDB.java" />
       </list>
     </option>
   </component>
@@ -106,11 +134,44 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aacom.WebSocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aacom.WebSocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aacom.WebSocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aacom.WebSocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aacom.WebSocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aacom.WebSocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aacom.WebSocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aacom.WebSocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589463519039" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589465546186" />
+    <property name="last_opened_file_path" value="D:/postgresql-42.2.12.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -126,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UserPostgresDB">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,8 +197,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserPostgresDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserPostgresDB" />
+      <module name="aa.com" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.UserPostgresDB" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserPostgresDB" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -160,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588672531657</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="performance fixed">
+      <created>1589463556370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589463556371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -174,8 +254,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34901533" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34861407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -238,16 +319,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commited" />
-    <option name="LAST_COMMIT_MESSAGE" value="commited" />
+    <MESSAGE value="performance fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="performance fixed" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -294,17 +369,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyWebSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="318">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserPostgresDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -318,6 +440,19 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>aa.com</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -329,6 +464,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.slf4j:slf4j-api:1.7.25</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
